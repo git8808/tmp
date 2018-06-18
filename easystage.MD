@@ -117,3 +117,99 @@
 | err | <code>object</code> \| <code>null</code> | Custom object with `code` and `message` properties. If there is no error value is set to null. |
 | extractedChildNodesFilePath | <code>string</code> | Path to the XML file that contains extracted XML child nodes. |
 
+<a name="module_easystage"></a>
+
+## easystage
+
+* [easystage](#module_easystage)
+    * [~fs](#module_easystage..fs)
+    * [~createEtlScriptCB](#module_easystage..createEtlScriptCB) : <code>function</code>
+    * [~extractGlobalConstansCB](#module_easystage..extractGlobalConstansCB) : <code>function</code>
+    * [~extractLocalConstansCB](#module_easystage..extractLocalConstansCB) : <code>function</code>
+    * [~extractChildNodesCB](#module_easystage..extractChildNodesCB) : <code>function</code>
+    * [~resolveConstantsCB](#module_easystage..resolveConstantsCB) : <code>function</code>
+    * [~resolveAndAppendConstantsCB](#module_easystage..resolveAndAppendConstantsCB) : <code>function</code>
+    * [~resolveUserConstantsCB](#module_easystage..resolveUserConstantsCB) : <code>function</code>
+    * [~generateCodeCB](#module_easystage..generateCodeCB) : <code>function</code>
+
+<a name="module_easystage..fs"></a>
+
+### easystage~fs
+**Kind**: inner constant of [<code>easystage</code>](#module_easystage)  
+**Author**: Patrik SagatCreated at     : 2018-05-24 16:04:17 Last modified  : 2018-05-24 16:07:28  
+<a name="module_easystage..createEtlScriptCB"></a>
+
+### easystage~createEtlScriptCB : <code>function</code>
+**Kind**: inner typedef of [<code>easystage</code>](#module_easystage)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| err | <code>object</code> \| <code>null</code> | Custom object with `code` and `message` properties. If there is no error value is set to null. |
+
+<a name="module_easystage..extractGlobalConstansCB"></a>
+
+### easystage~extractGlobalConstansCB : <code>function</code>
+**Kind**: inner typedef of [<code>easystage</code>](#module_easystage)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| err | <code>object</code> \| <code>null</code> | Custom object with `code` and `message` properties. If there is no error value is set to null. |
+| globalConstantsFilePath | <code>string</code> | Path to the XML file that contains extracted global constants. |
+
+<a name="module_easystage..extractLocalConstansCB"></a>
+
+### easystage~extractLocalConstansCB : <code>function</code>
+**Kind**: inner typedef of [<code>easystage</code>](#module_easystage)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| err | <code>object</code> \| <code>null</code> | Custom object with `code` and `message` properties. If there is no error value is set to null. |
+| localConstantsFilePath | <code>string</code> | Path to the XML file that contains extracted local constants. |
+
+<a name="module_easystage..extractChildNodesCB"></a>
+
+### easystage~extractChildNodesCB : <code>function</code>
+**Kind**: inner typedef of [<code>easystage</code>](#module_easystage)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| err | <code>object</code> \| <code>null</code> | Custom object with `code` and `message` properties. If there is no error value is set to null. |
+| extractedChildNodesFilePath | <code>string</code> | Path to the XML file that contains extracted XML child nodes. |
+
+<a name="module_easystage..resolveConstantsCB"></a>
+
+### easystage~resolveConstantsCB : <code>function</code>
+**Kind**: inner typedef of [<code>easystage</code>](#module_easystage)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| err | <code>object</code> \| <code>null</code> | Custom object with `code` and `message` properties. If there is no error value is set to null. |
+
+<a name="module_easystage..resolveAndAppendConstantsCB"></a>
+
+### easystage~resolveAndAppendConstantsCB : <code>function</code>
+**Kind**: inner typedef of [<code>easystage</code>](#module_easystage)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| err | <code>object</code> \| <code>null</code> | Custom object with `code` and `message` properties. If there is no error value is set to null. |
+
+<a name="module_easystage..resolveUserConstantsCB"></a>
+
+### easystage~resolveUserConstantsCB : <code>function</code>
+**Kind**: inner typedef of [<code>easystage</code>](#module_easystage)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| err | <code>object</code> \| <code>null</code> | Custom object with `code` and `message` properties. If there is no error value is set to null. |
+
+<a name="module_easystage..generateCodeCB"></a>
+
+### easystage~generateCodeCB : <code>function</code>
+**Kind**: inner typedef of [<code>easystage</code>](#module_easystage)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| err | <code>object</code> \| <code>null</code> | Custom object with `code` and `message` properties. If there is no error value is set to null. |
+|  | <code>string</code> | Path to XML file that contains generated ETL code. |
+
